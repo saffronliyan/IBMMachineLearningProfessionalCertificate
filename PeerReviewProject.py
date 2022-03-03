@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression, Ridge, Lasso
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 
-file = 'C:\\Users\\YanPeng\\Desktop\\IBMMachineLearning\\data\\Ames_Housing_Sales.csv'
+file = '\\data\\Ames_Housing_Sales.csv'
 
 data = pd.read_csv(file, header = 0)
 
